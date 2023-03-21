@@ -1,10 +1,8 @@
-# https://github.com/openai/openai-python
-# https://platform.openai.com/docs/api-reference
-
 import openai
+import os
+os.environ['api_key'] = "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"
 
 # https://openai.com/api
-openai.api_key = "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"
 
 # modelo entrenado que esta asociado a chapgpt
 # text-davinci-003
