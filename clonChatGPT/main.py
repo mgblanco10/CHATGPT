@@ -1,11 +1,12 @@
 from flask import Flask, render_template, request
 import openai
+import os
 
-# import os
-# os.environ['api_key'] = "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"
+print(os.environ.get('openai_api_key'))
+openai.api_key = os.environ['openai_api_key']
 
 app = Flask(__name__)
-openai.api_key =  "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"
+
 conversations = []
 
 @app.route('/', methods=['GET', 'POST'])

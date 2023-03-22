@@ -1,5 +1,6 @@
 import openai
 import os
+print(os.environ.get('openai_api_key'))
 openai.api_key = os.environ['openai_api_key']
 # https://openai.com/api
 
@@ -11,7 +12,9 @@ while True:
     if prompt == "exit":
         break
 
-    completion = openai.Completion.create(engine="text-davinci-003", prompt= prompt, max_tokens=2048)
+    completion = openai.Completion.create(engine="text-davinci-003", 
+                                          prompt= prompt, 
+                                          max_tokens=2048)
 
     print(completion.choices[0].text)
 
