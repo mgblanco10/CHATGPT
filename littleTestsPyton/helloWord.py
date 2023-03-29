@@ -16,4 +16,4 @@ for i in range(10):
 
 print("holita al mundito")
 print("I'm programming in Python!")
- 
+print((6-2)/(5*(1+4))+3)
