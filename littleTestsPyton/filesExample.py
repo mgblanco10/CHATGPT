@@ -16,3 +16,12 @@ print(calculate_storage(1))    # Should be 4096
 print(calculate_storage(4096)) # Should be 4096
 print(calculate_storage(4097)) # Should be 8192
 print(calculate_storage(6000)) # Should be 8192
+
+
+def sum(x, y):
+        return(x+y)
+print(sum(sum(1,2), sum(3,4)))
+
+n = 4
+if n*6 > n**2 or n%2 == 0:
+    print("Check")
