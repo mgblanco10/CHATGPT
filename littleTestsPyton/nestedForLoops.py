@@ -49,10 +49,9 @@ for x in range(2):
     print("Exit inner loop") 
 
 
-# for k in range(7):
-#     if k % 2 == 0:
-#         print(k)
+for k in range(7):
+    if k % 2 == 0:
+        print(k)
 
-for x in range(1,11):
-  print(x ** 3)
+
 
