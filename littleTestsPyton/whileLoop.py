@@ -29,13 +29,17 @@ count_down(3)
 
 
 # More example while loop revisar ##########################
-def get_username():
-    username = input("Ingrese su nombre de usuario: ")
-    return username
-
 def valid_username(username):
     # Validar si el nombre de usuario es válido o no.
     # Retornar True si es válido, de lo contrario False.
+
+    # Validar el nombre de usuario aquí y retornar True si es válido.
+    # De lo contrario, retornar False.
+    return True
+
+def get_username():
+    # Pedir al usuario que ingrese su nombre de usuario y retornarlo como una cadena.
+    return input("Ingrese su nombre de usuario: ")
 
 # Obtener el nombre de usuario del usuario.
 username = get_username()
@@ -48,3 +52,24 @@ while not valid_username(username):
 # El nombre de usuario es válido.
 print("Nombre de usuario válido:", username)
 
+
+### Otro ejemplo
+starting_number = 18
+
+while starting_number >= 0:
+    print(starting_number, end=" ")
+    
+    starting_number -= 3
+
+
+###Otro ejemplo
+def X_figure(salary):
+    tally = 0
+    if salary == 0:
+        tally += 1
+    while salary >= 1:
+        salary = salary/10
+        tally += 1
+
+    return tally
+print("The CEO has a " + str(X_figure(2300000)) + "-figure salary.")
