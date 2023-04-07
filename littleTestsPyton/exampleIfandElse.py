@@ -82,7 +82,6 @@ def elevator_floor(enter, exit):
     # Going up) along with the floor countdown or count up.
     return elevator_direction
 
-
 # Call the function with 2 integer parameters. 
 print(elevator_floor(1,4)) # Should print Going up: 1 | 2 | 3 | 4
 print(elevator_floor(6,2)) # Should print Going down: 6 | 5 | 4 | 3 | 2
