@@ -43,3 +43,10 @@ print(fruits)
 #remove si el elmento no lo encuentra es un ValueError
 fruits.remove("Melon")
 print(fruits)
+
+# con metodo pop decimos que posición queremos eliminar y devuelve el elemento eliminado
+print(fruits.pop(2))
+print(fruits)
+
+fruits[2]= "strawberry"
+print(fruits)
