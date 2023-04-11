@@ -61,3 +61,5 @@ print("...".join(["This", "is", "a", "phrase", "joined", "by", "spaces"]))
 
 # devuelve una lista de las palabras de la cadena inicial
 print("This is another example".split())
+
+
