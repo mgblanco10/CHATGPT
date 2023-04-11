@@ -64,6 +64,3 @@ print("This is another example".split())
 
 # string.isalpha() - Returns True if there are only alphabetic characters in the string. If not, returns False.
 
-
-
- 
