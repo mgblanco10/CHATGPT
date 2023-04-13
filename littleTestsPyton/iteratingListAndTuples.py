@@ -66,3 +66,20 @@ print(octal_to_string(755)) # Should be rwxr-xr-x
 print(octal_to_string(644)) # Should be rw-r--r--
 print(octal_to_string(750)) # Should be rwxr-x---
 print(octal_to_string(600)) # Should be rw-------
+
+
+# ###############
+animal = "Hippopotamus"
+print(animal[3:6])
+print(animal[-5])
+print(animal[10:])
+
+# ######
+music_genres = ["rock", "pop", "country"]
+music_genres.append("blues")
+print(music_genres)
+
+#########
+speed_limits = {"street": 35, "highway": 65, "school": 15}
+speed_limits["highway"]
+print(speed_limits["highway"])

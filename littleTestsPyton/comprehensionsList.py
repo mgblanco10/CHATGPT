@@ -66,4 +66,17 @@ print(squares(2, 3))  # Should print [4, 9]
 print(squares(1, 5))  # Should print [1, 4, 9, 16, 25]
 print(squares(0, 10)) # Should print [0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
+# list[index] = x - Replaces the element at index [n] with x.
+# list.append(x) - Appends x to the end of the list.
+# list.insert(index, x) - Inserts x at index position [index].
+# list.pop(index) - Returns the element at [index] and removes it from the list. If [index] position is not in the list, the last element in the list is returned and removed.
+# list.remove(x) - Removes the first occurrence of x in the list.
+# list.sort() - Sorts the items in the list.
+# list.reverse() - Reverses the order of items of the list.
+# list.clear() - Deletes all items in the list.
+# list.copy() - Creates a copy of the list.
+# list.extend(other_list) - Appends all the elements of other_list at the end of list
+
+
+
 
