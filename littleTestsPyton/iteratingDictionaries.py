@@ -13,6 +13,7 @@ for value in files.values():
     print(value)
 
 # ######## ################    ####################
+
 def count_letters(text):
     result = {}
     for letter in text:
