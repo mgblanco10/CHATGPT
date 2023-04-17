@@ -21,3 +21,5 @@ def count_letters(text):
             result[letter] = 0
         result[letter] += 1
     return result
+
+print(count_letters("Hola como es esto"))
