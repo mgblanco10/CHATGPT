@@ -25,3 +25,8 @@ class Apple:
     
 goldengold = Apple("green", "sour")
 print(goldengold)
+# help(Apple)
+
+
+
+
